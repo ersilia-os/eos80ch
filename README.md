@@ -22,7 +22,7 @@ active and inactive compounds.
 
 ## References
 
-* [Publication](https://github.com/M2PL)
+* [Publication](https://www.biorxiv.org/content/10.1101/2023.08.15.553339v1)
 * [Source Code](https://github.com/M2PL)
 * Ersilia contributor: [GemmaTuron](https://github.com/GemmaTuron)
 
@@ -33,7 +33,7 @@ active and inactive compounds.
 
 ## Citation
 
-If you use this model, please cite the [original authors](https://github.com/M2PL) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
+If you use this model, please cite the [original authors](https://www.biorxiv.org/content/10.1101/2023.08.15.553339v1) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
 
 ## License
 
