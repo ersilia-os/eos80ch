@@ -1,0 +1,3 @@
+name,type,direction,description
+sexual_stage,float,high,Probability score of inhibition of the sexual stage (gametocytes) of the malaria parasite
+asexual_blood_stage,float,high,Probability score of inhibition of the asexual blood stage (ABS) of the malaria parasite
