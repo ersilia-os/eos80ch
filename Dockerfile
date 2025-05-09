@@ -4,7 +4,7 @@ MAINTAINER ersilia
 RUN pip install rdkit==2022.9.2
 RUN pip install scikit-learn==1.2.2
 RUN pip install joblib==1.2.0
-RUN pip install numpy==1.22.3
+RUN pip install numpy==1.23.5
 
 WORKDIR /repo
 COPY . /repo
