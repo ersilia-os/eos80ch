@@ -1,6 +1,6 @@
 # Antimalarial activity for sexual stage and asexual blood stage (ABS)
 
-Prediction of the antimalarial potential of small molecules using data from various chemical libraries that were screened against the asexual and sexual (gametocyte) stages of the parasite. Several compounds' molecular fingerprints were used to train machine learning models to recognize stage-specific active and inactive compounds.
+Prediction of the antimalarial potential of small molecules using data from various chemical libraries that were screened against the asexual and sexual (gametocyte) stages of the parasite. Several compounds molecular fingerprints were used to train machine learning models to recognize stage-specific active and inactive compounds.
 
 This model was incorporated on 2023-07-10.
 
@@ -40,6 +40,8 @@ Below are the **Output Columns** of the model:
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80ch.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80ch.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `12`
+- **Environment Size (Mb):** `612`
 
 
 ### References
