@@ -1,48 +1,80 @@
-# Antimalarial activity (ABS and sexual stages)
+# Antimalarial activity for sexual stage and asexual blood stage (ABS)
 
-Prediction of the antimalarial potential of small molecules using data from various chemical libraries that were
-screened against the asexual and sexual (gametocyte) stages of the parasite. Several
-compounds’ molecular fingerprints were used to train machine learning models to recognize stage-specific
-active and inactive compounds.
+Prediction of the antimalarial potential of small molecules using data from various chemical libraries that were screened against the asexual and sexual (gametocyte) stages of the parasite. Several compounds' molecular fingerprints were used to train machine learning models to recognize stage-specific active and inactive compounds.
 
-## Identifiers
+This model was incorporated on 2023-07-10.
 
-* EOS model ID: `eos80ch`
-* Slug: `malaria-mam`
+## Information
+### Identifiers
+- **Ersilia Identifier:** `eos80ch`
+- **Slug:** `malaria-mam`
 
-## Characteristics
+### Domain
+- **Task:** `Annotation`
+- **Subtask:** `Activity prediction`
+- **Biomedical Area:** `Malaria`
+- **Target Organism:** `Plasmodium falciparum`
+- **Tags:** `Malaria`, `P.falciparum`
 
-* Input: `Compound`
-* Input Shape: `Single`
-* Task: `Classification`
-* Output: `Probability`
-* Output Type: `Float`
-* Output Shape: `List`
-* Interpretation: Probability of inhibition of the malaria parasite growth
+### Input
+- **Input:** `Compound`
+- **Input Dimension:** `1`
 
-## References
+### Output
+- **Output Dimension:** `2`
+- **Output Consistency:** `Fixed`
+- **Interpretation:** Probability of inhibition of the malaria parasite growth
 
-* [Publication](https://pubs.acs.org/doi/10.1021/acsomega.3c05664)
-* [Source Code](https://github.com/M2PL)
-* Ersilia contributor: [GemmaTuron](https://github.com/GemmaTuron)
+Below are the **Output Columns** of the model:
+| Name | Type | Direction | Description |
+|------|------|-----------|-------------|
+| sexual_stage | float | high | Probability score of inhibition of the sexual stage (gametocytes) of the malaria parasite |
+| asexual_blood_stage | float | high | Probability score of inhibition of the asexual blood stage (ABS) of the malaria parasite |
 
-## Ersilia model URLs
-* [GitHub](https://github.com/ersilia-os/eos80ch)
-* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80ch.zip)
-* [DockerHub](https://hub.docker.com/r/ersiliaos/eos80ch) (AMD64, ARM64)
 
-## Citation
+### Source and Deployment
+- **Source:** `Local`
+- **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos80ch](https://hub.docker.com/r/ersiliaos/eos80ch)
+- **Docker Architecture:** `AMD64`, `ARM64`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80ch.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80ch.zip)
 
-If you use this model, please cite the [original authors](https://pubs.acs.org/doi/10.1021/acsomega.3c05664) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
+### Resource Consumption
 
-## License
 
-This package is licensed under a GPL-3.0 license. The model contained within this package is licensed under a GPL-3.0 license.
+### References
+- **Source Code**: [https://github.com/M2PL](https://github.com/M2PL)
+- **Publication**: [https://pubs.acs.org/doi/10.1021/acsomega.3c05664](https://pubs.acs.org/doi/10.1021/acsomega.3c05664)
+- **Publication Type:** `Peer reviewed`
+- **Publication Year:** `2023`
+- **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
 
-Notice: Ersilia grants access to these models 'as is' provided by the original authors, please refer to the original code repository and/or publication if you use the model in your research.
+### License
+This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [GPL-3.0-or-later](LICENSE) license.
 
-## About Us
+**Notice**: Ersilia grants access to models _as is_, directly from the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 
-The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
 
-[Help us](https://www.ersilia.io/donate) achieve our mission!
+## Use
+To use this model locally, you need to have the [Ersilia CLI](https://github.com/ersilia-os/ersilia) installed.
+The model can be **fetched** using the following command:
+```bash
+# fetch model from the Ersilia Model Hub
+ersilia fetch eos80ch
+```
+Then, you can **serve**, **run** and **close** the model as follows:
+```bash
+# serve the model
+ersilia serve eos80ch
+# generate an example file
+ersilia example -n 3 -f my_input.csv
+# run the model
+ersilia run -i my_input.csv -o my_output.csv
+# close the model
+ersilia close
+```
+
+## About Ersilia
+The [Ersilia Open Source Initiative](https://ersilia.io) is a tech non-profit organization fueling sustainable research in the Global South.
+Please [cite](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff) the Ersilia Model Hub if you've found this model to be useful. Always [let us know](https://github.com/ersilia-os/ersilia/issues) if you experience any issues while trying to run it.
+If you want to contribute to our mission, consider [donating](https://www.ersilia.io/donate) to Ersilia!
