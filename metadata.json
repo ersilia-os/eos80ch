@@ -3,21 +3,18 @@
     "Slug": "malaria-mam",
     "Status": "Ready",
     "Title": "Antimalarial activity for sexual stage and asexual blood stage (ABS)",
-    "Description": "Prediction of the antimalarial potential of small molecules using data from various chemical libraries that were screened against the asexual and sexual (gametocyte) stages of the parasite. Several compounds' molecular fingerprints were used to train machine learning models to recognize stage-specific active and inactive compounds.\n",
+    "Description": "Prediction of the antimalarial potential of small molecules using data from various chemical libraries that were screened against the asexual and sexual (gametocyte) stages of the parasite. Several compounds molecular fingerprints were used to train machine learning models to recognize stage-specific active and inactive compounds.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Activity prediction",
-    "Biomedical Area": [
-        "Malaria"
-    ],
-    "Target Organism": [
-        "Plasmodium falciparum"
-    ],
     "Output": [
         "Score"
     ],
@@ -28,20 +25,25 @@
         "Malaria",
         "P.falciparum"
     ],
-    "Publication": "https://pubs.acs.org/doi/10.1021/acsomega.3c05664",
+    "Biomedical Area": [
+        "Malaria"
+    ],
+    "Target Organism": [
+        "Plasmodium falciparum"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2023,
+    "Publication": "https://pubs.acs.org/doi/10.1021/acsomega.3c05664",
     "Source Code": "https://github.com/M2PL",
     "License": "GPL-3.0-or-later",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2023-07-10",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80ch.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos80ch",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80ch.zip",
-    "Deployment": [
-        "Local"
-    ]
+    "Model Size": 12.0,
+    "Environment Size": 612.0
 }
