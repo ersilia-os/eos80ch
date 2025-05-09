@@ -42,7 +42,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `12`
 - **Environment Size (Mb):** `612`
+- **Image Size (Mb):** `589.97`
 
+**Computational Performance (seconds):**
+- 10 inputs: `31.32`
+- 100 inputs: `21.45`
+- 10000 inputs: `314.03`
 
 ### References
 - **Source Code**: [https://github.com/M2PL](https://github.com/M2PL)
