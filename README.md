@@ -2,8 +2,7 @@
 
 Prediction of the antimalarial potential of small molecules using data from various chemical libraries that were screened against the asexual and sexual (gametocyte) stages of the parasite. Several compounds molecular fingerprints were used to train machine learning models to recognize stage-specific active and inactive compounds.
 
-This model was incorporated on 2023-07-10.
-
+This model was incorporated on 2023-07-10.Last packaged on 2025-10-17.
 
 ## Information
 ### Identifiers
@@ -43,12 +42,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `12`
 - **Environment Size (Mb):** `631`
-- **Image Size (Mb):** `589.97`
+- **Image Size (Mb):** `676.36`
 
 **Computational Performance (seconds):**
-- 10 inputs: `31.32`
-- 100 inputs: `21.45`
-- 10000 inputs: `314.03`
+- 10 inputs: `28.01`
+- 100 inputs: `18.11`
+- 10000 inputs: `68.94`
 
 ### References
 - **Source Code**: [https://github.com/M2PL](https://github.com/M2PL)
