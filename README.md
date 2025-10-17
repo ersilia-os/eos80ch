@@ -4,6 +4,7 @@ Prediction of the antimalarial potential of small molecules using data from vari
 
 This model was incorporated on 2023-07-10.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos80ch`
