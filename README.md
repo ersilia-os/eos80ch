@@ -51,7 +51,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/M2PL](https://github.com/M2PL)
-- **Publication**: [https://pubs.acs.org/doi/10.1021/acsomega.3c05664](https://pubs.acs.org/doi/10.1021/acsomega.3c05664)
+- **Publication**: [https://doi.org/10.1021/acsomega.3c05664](https://doi.org/10.1021/acsomega.3c05664)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2023`
 - **Ersilia Contributor:** [GemmaTuron](https://github.com/GemmaTuron)
