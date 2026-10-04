@@ -1,6 +1,6 @@
 # Antimalarial activity for sexual stage and asexual blood stage (ABS)
 
-Prediction of the antimalarial potential of small molecules using data from various chemical libraries that were screened against the asexual and sexual (gametocyte) stages of the parasite. Several compounds molecular fingerprints were used to train machine learning models to recognize stage-specific active and inactive compounds.
+Distinguishes compounds active against the sexual and asexual stages of Plasmodium falciparum, a separation that matters because killing gametocytes blocks onward transmission while killing blood-stage parasites treats the patient. Van Heerden and colleagues assembled stage-resolved screening data and used machine learning to identify the chemical features distinguishing the two activity profiles. Compounds active in both stages are rare, which is precisely what makes them valuable for elimination campaigns.
 
 This model was incorporated on 2023-07-10.Last packaged on 2025-10-17.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-07-10.Last packaged on 2025-10-17.
 ### Output
 - **Output Dimension:** `2`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of inhibition of the malaria parasite growth
+- **Interpretation:** Probabilities of activity against the sexual and asexual stages of Plasmodium falciparum.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
