@@ -1,6 +1,6 @@
 # Antimalarial activity for sexual stage and asexual blood stage (ABS)
 
-Distinguishes compounds active against the sexual and asexual stages of Plasmodium falciparum, a separation that matters because killing gametocytes blocks onward transmission while killing blood-stage parasites treats the patient. Van Heerden and colleagues assembled stage-resolved screening data and used machine learning to identify the chemical features distinguishing the two activity profiles. Compounds active in both stages are rare, which is precisely what makes them valuable for elimination campaigns.
+Separates compounds that kill transmissible Plasmodium falciparum gametocytes from those active on asexual blood-stage parasites, a distinction that matters because gametocytocidal chemistry blocks onward transmission while blood-stage activity treats the patient. Van Heerden and colleagues pooled library screens covering 126,374 asexual and 93,941 sexual-stage compounds, rebalanced them by clustering and trained circular-fingerprint models, a support vector classifier and a random forest. Barely 3% of actives hit both stages.
 
 This model was incorporated on 2023-07-10.Last packaged on 2025-10-17.
 
