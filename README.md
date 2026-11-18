@@ -2,7 +2,8 @@
 
 Separates compounds that kill transmissible Plasmodium falciparum gametocytes from those active on asexual blood-stage parasites, a distinction that matters because gametocytocidal chemistry blocks onward transmission while blood-stage activity treats the patient. Van Heerden and colleagues pooled library screens covering 126,374 asexual and 93,941 sexual-stage compounds, rebalanced them by clustering and trained circular-fingerprint models, a support vector classifier and a random forest. Barely 3% of actives hit both stages.
 
-This model was incorporated on 2023-07-10.Last packaged on 2025-10-17.
+This model was incorporated on 2023-07-10.
+Last packaged on 2025-10-17.
 
 ## Information
 ### Identifiers
@@ -14,7 +15,7 @@ This model was incorporated on 2023-07-10.Last packaged on 2025-10-17.
 - **Subtask:** `Activity prediction`
 - **Biomedical Area:** `Malaria`
 - **Target Organism:** `Plasmodium falciparum`
-- **Tags:** `Malaria`, `P.falciparum`
+- **Tags:** `Antiparasitic activity`, `Antimicrobial activity`
 
 ### Input
 - **Input:** `Compound`
