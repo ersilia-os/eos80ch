@@ -38,7 +38,7 @@
     "License": "GPL-3.0-or-later",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2023-07-10",
-    "Last Packaging Date": "2025-10-17",
+    "Last Packaging Date": "2026-11-18",
     "Release": "v1.0.1",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80ch.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos80ch",
@@ -48,10 +48,10 @@
     ],
     "Model Size": 13.0,
     "Environment Size": 619.0,
-    "Image Size": 676.36,
-    "Computational Performance 1": 28.01,
-    "Computational Performance 2": 18.06,
-    "Computational Performance 3": 18.11,
-    "Computational Performance 4": 27.33,
-    "Computational Performance 5": 68.94
+    "Image Size": 216.03,
+    "Computational Performance 1": 28.11,
+    "Computational Performance 2": 18.93,
+    "Computational Performance 3": 18.04,
+    "Computational Performance 4": 25.97,
+    "Computational Performance 5": 63.43
 }
