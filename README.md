@@ -3,7 +3,7 @@
 Separates compounds that kill transmissible Plasmodium falciparum gametocytes from those active on asexual blood-stage parasites, a distinction that matters because gametocytocidal chemistry blocks onward transmission while blood-stage activity treats the patient. Van Heerden and colleagues pooled library screens covering 126,374 asexual and 93,941 sexual-stage compounds, rebalanced them by clustering and trained circular-fingerprint models, a support vector classifier and a random forest. Barely 3% of actives hit both stages.
 
 This model was incorporated on 2023-07-10.
-Last packaged on 2025-10-17.
+Last packaged on 2026-11-18.
 
 ## Information
 ### Identifiers
@@ -43,12 +43,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `13`
 - **Environment Size (Mb):** `619`
-- **Image Size (Mb):** `676.36`
+- **Image Size (Mb):** `216.03`
 
 **Computational Performance (seconds):**
-- 10 inputs: `28.01`
-- 100 inputs: `18.11`
-- 10000 inputs: `68.94`
+- 10 inputs: `28.11`
+- 100 inputs: `18.04`
+- 10000 inputs: `63.43`
 
 ### References
 - **Source Code**: [https://github.com/M2PL](https://github.com/M2PL)
